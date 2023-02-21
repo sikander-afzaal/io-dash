@@ -1,3 +1,5 @@
+import FilterTab from "./FilterTab";
+
 const FilterSidebar = ({ filterBar, setFilterBar }) => {
   return (
     <>
@@ -8,9 +10,9 @@ const FilterSidebar = ({ filterBar, setFilterBar }) => {
         ></div>
       )}
       <div
-        className={`w-full fixed top-0 transition-all duration-700 md2:max-w-none md2:static z-30 max-w-[300px] bg-white border-r border-solid border-[#E8ECEF] h-full ${
+        className={`w-full fixed md2:max-h-none max-h-screen overflow-y-auto top-0 transition-all duration-700 md2:max-w-none md2:static z-30 max-w-[300px] bg-white border-r border-solid border-[#E8ECEF] h-full ${
           filterBar ? "left-0" : "-left-[600px]"
-        }`}
+        } flex justify-start items-center  flex-col pb-4`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -28,10 +30,10 @@ const FilterSidebar = ({ filterBar, setFilterBar }) => {
           />
         </svg>
 
-        <h2 className="text-dark leading-[1] h-[71px] border-b border-solid border-[#E8ECEF] font-medium flex justify-center items-center">
+        <h2 className="text-dark min-h-[72px] w-full leading-[1] h-[71px] border-b border-solid border-[#E8ECEF] font-medium flex justify-center items-center">
           Search for Files
         </h2>
-        <div className="flex justify-between border-b border-solid border-[#E8ECEF] items-center px-3 py-5 gap-3 w-full">
+        <div className="flex min-h-[72px] justify-between border-b border-solid border-[#E8ECEF] items-center px-3 py-5 gap-3 w-full">
           <div className="flex justify-center items-center  gap-2">
             <h4 className="text-dark leading-[1] font-medium text-base">
               Filters
@@ -63,7 +65,7 @@ const FilterSidebar = ({ filterBar, setFilterBar }) => {
             </button>
           </div>
         </div>
-        <div className="gap-1 text-dark border-b border-solid border-[#E8ECEF] flex justify-start items-center px-3 py-3 w-full">
+        <div className="gap-1 text-dark min-h-[45px] border-b border-solid border-[#E8ECEF] flex justify-start items-center px-3 py-3 w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -84,6 +86,57 @@ const FilterSidebar = ({ filterBar, setFilterBar }) => {
             className="bg-transparent w-full text-dark text-sm border-none outline-none placeholder:text-dark"
           />
         </div>
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Lists"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Department"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Safeguards"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Name"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Title"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Seniority"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Company"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Industry"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Number of Employees"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Location"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Stage"
+        />
+        <FilterTab
+          tags={["Hardware", "Software", "Web", "Design"]}
+          name="Owner"
+        />
+        <button className="bg-black w-full max-w-[250px] mt-5  min-h-[40px] text-white text-lg border-none rounded-full">
+          More Filters
+        </button>
       </div>
     </>
   );

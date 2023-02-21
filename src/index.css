@@ -18,6 +18,13 @@
     "side main"
     "side main";
 }
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 @media screen and (max-width: 640px) {
   .area {
     grid-template-areas:
