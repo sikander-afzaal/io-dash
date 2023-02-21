@@ -22,19 +22,19 @@ const FilterTab = ({ name, tags }) => {
   };
   useEffect(() => {
     if (activeTab && includedTags.length > 0) {
-      setHeightTab("230");
+      setHeightTab("min-h-[230px]");
     } else if (activeTab && includedTags.length === 0) {
-      setHeightTab("200");
+      setHeightTab("min-h-[200px]");
     } else if (!activeTab && includedTags.length > 0) {
-      setHeightTab("84");
+      setHeightTab("min-h-[84px]");
     } else if (!activeTab && includedTags.length === 0) {
-      setHeightTab("60");
+      setHeightTab("min-h-[60px]");
     }
   }, [activeTab, includedTags.length]);
 
   return (
     <div
-      className={`w-full  border-b border-solid border-[#E8ECEF] overflow-hidden px-3 flex justify-start items-start flex-col transition-all duration-300 min-h-[${heightTab}px]`}
+      className={`w-full  border-b border-solid border-[#E8ECEF] overflow-hidden px-3 flex justify-start items-start flex-col transition-all duration-300 ${heightTab}`}
     >
       <button
         onClick={() => setActiveTab((prev) => !prev)}
