@@ -1,4 +1,7 @@
+import { useView } from "../context/layoutContext";
+
 const FilterBar = ({ setFilterSide }) => {
+  const { gridView, setGridView } = useView();
   return (
     <div className="overflow-x-auto w-full max-w-full">
       <div className="flex justify-start px-3 py-4 md2:justify-end w-full items-center   gap-3  min-w-max">
@@ -40,7 +43,8 @@ const FilterBar = ({ setFilterSide }) => {
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="#8A9099"
+            onClick={() => setGridView(false)}
+            stroke={!gridView ? "#304FFD" : "#8A9099"}
             className="w-6 h-6 cursor-pointer"
           >
             <path
@@ -55,7 +59,8 @@ const FilterBar = ({ setFilterSide }) => {
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="#304FFD"
+            onClick={() => setGridView(true)}
+            stroke={gridView ? "#304FFD" : "#8A9099"}
             className="w-6 h-6 cursor-pointer"
           >
             <path

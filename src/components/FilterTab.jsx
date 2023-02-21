@@ -25,7 +25,6 @@ const FilterTab = ({ name, tags }) => {
   useEffect(() => {
     const heightBottom = tabRef.current.clientHeight;
     const heightButton = refBtn.current.clientHeight;
-    console.log(heightButton);
     if (activeTab) {
       const minH = heightBottom + heightButton;
       mainRef.current.style.height = minH + "px";
