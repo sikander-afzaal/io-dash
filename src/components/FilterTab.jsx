@@ -34,7 +34,7 @@ const FilterTab = ({ name, tags }) => {
 
   return (
     <div
-      className={`w-full  border-b border-solid border-[#E8ECEF] overflow-hidden px-3 flex justify-start items-start flex-col transition-all duration-300 ${heightTab}`}
+      className={`w-full border-b border-solid border-[#E8ECEF] overflow-hidden px-3 flex justify-start items-start flex-col transition-all duration-300 ${heightTab}`}
     >
       <button
         onClick={() => setActiveTab((prev) => !prev)}
