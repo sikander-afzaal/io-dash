@@ -20,6 +20,9 @@ module.exports = {
         box: "-4px 8px 24px rgba(44, 63, 88, 0.02)",
         dropDown: "0px 20px 50px rgba(44, 63, 88, 0.15)",
       },
+      screens: {
+        md2: "877px",
+      },
     },
   },
   plugins: [],

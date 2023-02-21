@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import useOutsideClick from "../hooks/useOutsideClick";
 const OverviewBox = ({
   img,
   name,
@@ -11,14 +11,21 @@ const OverviewBox = ({
   overall,
   time,
 }) => {
+  const outSideClickFunc = () => {
+    setActiveDrop(false);
+  };
   const [activeDrop, setActiveDrop] = useState(false);
+  const outsideClickRef = useOutsideClick(outSideClickFunc);
   return (
     <div className="flex justify-start gap-4 items-start flex-col w-full bg-white rounded-[20px] p-5 drop-shadow-box">
       {/* //top part of box ------- */}
       <div className="w-full relative flex justify-between items-center gap-2">
         {/* //drop down ----------------------------------- */}
         {activeDrop && (
-          <div className="flex justify-start items-start flex-col drop-shadow-dropDown pt-2 w-full max-w-[224px] bg-white absolute z-20 right-0 overflow-hidden top-[80%] rounded-lg">
+          <div
+            ref={outsideClickRef}
+            className="flex justify-start items-start flex-col drop-shadow-dropDown pt-2 w-full max-w-[224px] bg-white absolute z-20 right-0 overflow-hidden top-[80%] rounded-lg"
+          >
             <div
               onClick={() => setActiveDrop(false)}
               className="flex hover:bg-[#F8FAFB] transition-all duration-150 cursor-pointer justify-start items-center w-full px-5 py-3 gap-3 text-[#595F69]"

@@ -18,3 +18,11 @@
     "side main"
     "side main";
 }
+@media screen and (max-width: 640px) {
+  .area {
+    grid-template-areas:
+      "top"
+      "main"
+      "main";
+  }
+}
