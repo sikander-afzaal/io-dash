@@ -1,7 +1,7 @@
 const FilterBar = ({ setFilterSide }) => {
   return (
     <div className="overflow-x-auto w-full max-w-full">
-      <div className="flex justify-start  md2:justify-end w-full items-center border-b  gap-3 px-2 py-4 border-solid border-[#E8ECEF] min-w-max">
+      <div className="flex justify-start px-3 py-4 md2:justify-end w-full items-center   gap-3  min-w-max">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

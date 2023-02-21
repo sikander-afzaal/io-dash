@@ -10,7 +10,7 @@ const FilterSidebar = ({ filterBar, setFilterBar }) => {
         ></div>
       )}
       <div
-        className={`w-full fixed md2:max-h-none max-h-screen overflow-y-auto top-0 transition-all duration-700 md2:max-w-none md2:static md2:z-0 z-30 max-w-[300px] bg-white border-r border-solid border-[#E8ECEF] h-full ${
+        className={`w-full fixed md2:pt-0 pt-7 md2:max-h-none max-h-screen overflow-y-auto top-0 transition-all duration-700 md2:max-w-none md2:static md2:z-0 z-30 max-w-[300px] bg-white border-r border-solid border-[#E8ECEF] h-full ${
           filterBar ? "left-0" : "-left-[600px]"
         } flex justify-start items-center  flex-col pb-4`}
       >
@@ -29,32 +29,6 @@ const FilterSidebar = ({ filterBar, setFilterBar }) => {
             d="M6 18L18 6M6 6l12 12"
           />
         </svg>
-        <div className=" border-b  px-3 pb-3 min-h-[81px] pt-5 w-full gap-3 border-solid border-[#E8ECEF] flex justify-start items-center flex-col">
-          <h2 className="text-dark  w-full leading-[1]  font-medium flex justify-center items-center">
-            Search for Files
-          </h2>
-          <div className="gap-1 text-dark  flex justify-start items-center w-full">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="min-w-4 h-4 cursor-pointer"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-              />
-            </svg>
-            <input
-              type="text"
-              placeholder="Search by keywords"
-              className="bg-transparent w-full text-dark text-sm border-none outline-none placeholder:text-dark"
-            />
-          </div>
-        </div>
 
         <div className="flex min-h-[72px] justify-between border-b border-solid border-[#E8ECEF] items-center px-3 py-5 gap-3 w-full">
           <div className="flex justify-center items-center  gap-2">
