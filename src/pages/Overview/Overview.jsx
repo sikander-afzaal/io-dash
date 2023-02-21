@@ -86,8 +86,8 @@ const Overview = () => {
   const [toggleFilterBar, setToggleFilterBar] = useState(false);
   const [activeTab, setActiveTab] = useState("All");
   return (
-    <div className="main flex justify-start items-start flex-col mt-5 h-full">
-      <div className="w-full  justify-start gap-1 sm:gap-5 items-center flex border-b-2 pb-2 px-2 border-solid border-[#E8E9EB]">
+    <div className="main flex justify-start items-start flex-col mt-0 h-full">
+      <div className="w-full  sticky top-[0px] pt-6 bg-white left-0 z-10 justify-start gap-1 sm:gap-5 items-center flex border-b-2 pb-4 px-2 border-solid border-[#E8E9EB]">
         <Tabs
           active={activeTab}
           setActive={setActiveTab}
@@ -140,7 +140,7 @@ const Tabs = ({ name, number, active, setActive }) => {
       className="flex justify-center bg-transparent border-none px-1 items-center cursor-pointer  gap-2 relative "
     >
       {active === name && (
-        <div className="absolute w-full h-[2px] bg-[#304FFD] top-[calc(100%_+_8px)]"></div>
+        <div className="absolute w-full h-[2px] bg-[#304FFD] top-[calc(100%_+_16px)]"></div>
       )}
       <p
         className={`${

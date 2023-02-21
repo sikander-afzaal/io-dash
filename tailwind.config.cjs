@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        fluid: "repeat(auto-fit,minmax(350px,1fr))",
+        fluid: "repeat(auto-fit,minmax(400px,1fr))",
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],

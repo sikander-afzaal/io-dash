@@ -161,7 +161,42 @@ const OverviewBox = ({
             className={`bg-[#F3A23A] rounded-full h-[12px]`}
           ></div>
         </div>
+        <div className="flex justify-start items-start w-full gap-1 mt-3">
+          <div
+            style={{ width: progress1 + "%" }}
+            className="flex justify-start items-start flex-col gap-2"
+          >
+            <p className="text-[#8A9099] text-xs leading-[1]">Signed</p>
+            <p className="text-dark  leading-[1] font-medium">
+              <span className="inline-block w-[10px] aspect-square bg-[#47A8F7] rounded"></span>{" "}
+              12
+            </p>
+          </div>
+          <div
+            style={{ width: progress2 + "%" }}
+            className="flex justify-start items-start flex-col gap-2"
+          >
+            <p className="text-[#8A9099] text-xs leading-[1]">
+              Waiting signature
+            </p>
+            <p className="text-dark leading-[1] font-medium">
+              <span className="inline-block w-[10px] aspect-square bg-[#7F80E9] rounded"></span>{" "}
+              17
+            </p>
+          </div>
+          <div
+            style={{ width: progress3 + "%" }}
+            className="flex justify-start items-start flex-col gap-2"
+          >
+            <p className="text-[#8A9099] text-xs leading-[1]">Manager review</p>
+            <p className="text-dark leading-[1] font-medium">
+              <span className="inline-block w-[10px] aspect-square bg-[#F3A23A] rounded"></span>{" "}
+              22
+            </p>
+          </div>
+        </div>
       </div>
+
       <div className="flex justify-between w-full items-center">
         <div className="flex gap-1 justify-center bg-[#F8F8F8] rounded-[8px] px-2 py-1 items-center text-dark text-sm leading-[1]">
           <svg
