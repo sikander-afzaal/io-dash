@@ -84,7 +84,7 @@ const ProjectView = () => {
           <div onClick={() => setRightPanel(false)} className="overlay"></div>
         )}
         <div
-          className={`lg:static fixed z-[50] bg-white lg:max-w-none max-w-[300px] ${
+          className={`lg:static fixed lg:z-0 z-[50] bg-white lg:max-w-none max-w-[300px] ${
             rightPanel ? "right-0" : "-right-[700px]"
           } transition-all duration-700 top-0 w-full h-full lg:max-h-none lg:overflow-visible overflow-y-auto max-h-screen`}
         >
