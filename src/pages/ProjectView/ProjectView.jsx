@@ -96,7 +96,7 @@ const ProjectView = () => {
 
   return (
     <OverviewLayout>
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr__300px] grid-rows-[auto__1fr] xl:grid-cols-[250px__1fr__300px] 2xl:grid-cols-[380px__1fr__300px] w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr__300px] grid-rows-[auto__1fr] xl:grid-cols-[280px__1fr__280px] 2xl:grid-cols-[380px__1fr__300px] w-full">
         <div className="row-span-1  xl:max-h-screen xl:overflow-y-auto xl:sticky top-0 col-span-2 xl:row-auto xl:col-auto xl:flex-col w-full flex-row flex h-full justify-start items-start xl:border-r border-solid border-[#E8E9EB] hide-scrollbar overflow-x-auto">
           {DUMMY__DATA.map((elem, idx) => {
             return <ProjectViewSideBox {...elem} key={idx + "sideview"} />;
