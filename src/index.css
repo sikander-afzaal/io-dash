@@ -2,6 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .overlay {
+    @apply fixed top-0 left-0 w-full h-full z-[40] cursor-pointer bg-black opacity-60;
+  }
+}
 
 .top {
   grid-area: top;

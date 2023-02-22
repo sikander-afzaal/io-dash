@@ -7,7 +7,7 @@ const Overview = ({ children }) => {
   const [activeTab, setActiveTab] = useState("All");
   return (
     <div className="main flex justify-start items-start flex-col mt-0 h-full">
-      <div className="flex bg-white justify-start items-start flex-col sticky top-[0px] pt-6 left-0 z-10 w-full">
+      <div className="flex bg-white justify-start items-start flex-col sticky top-[0px] pt-6 left-0 z-30 w-full">
         {/* //tabs ----------------------- */}
         <div className="w-full justify-start gap-1 sm:gap-5 items-center flex border-b-2 pb-4 px-2 border-solid border-[#E8E9EB]">
           <Tabs

@@ -4,13 +4,10 @@ const FilterSidebar = ({ filterBar, setFilterBar }) => {
   return (
     <>
       {filterBar && (
-        <div
-          onClick={() => setFilterBar(false)}
-          className="fixed top-0 left-0 w-full h-full z-[10] cursor-pointer bg-black opacity-60"
-        ></div>
+        <div onClick={() => setFilterBar(false)} className="overlay"></div>
       )}
       <div
-        className={`w-full fixed md2:pt-0 pt-7 md2:max-h-none max-h-screen overflow-y-auto top-0 transition-all duration-700 md2:max-w-none md2:static md2:z-0 z-30 max-w-[300px] bg-white border-r border-solid border-[#E8ECEF] h-full ${
+        className={`w-full fixed md2:pt-0 pt-7 md2:max-h-none max-h-screen overflow-y-auto top-0 transition-all duration-700 md2:max-w-none md2:static md2:z-0 z-50 max-w-[300px] bg-white border-r border-solid border-[#E8ECEF] h-full ${
           filterBar ? "left-0" : "-left-[600px]"
         } flex justify-start items-center  flex-col pb-4`}
       >
