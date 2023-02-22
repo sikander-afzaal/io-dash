@@ -137,10 +137,10 @@ const ProjectViewRightPanel = () => {
           </div>
         )}
       </div>
-      <div className="flex mt-4 justify-start pb-5 border-b border-solid border-[#E8E9EB] items-start flex-col gap-3 w-full">
+      {/* <div className="flex mt-4 justify-start pb-5 border-b border-solid border-[#E8E9EB] items-start flex-col gap-3 w-full">
         <h4 className="uppercase font-medium text-dark text-sm">Created by</h4>
         <MemberRow img="/user (1).png" name="Shane Black" />
-      </div>
+      </div> */}
       <div className="flex mt-2 justify-start pb-5 border-b border-solid border-[#E8E9EB] items-start flex-col gap-6 w-full">
         <div className="w-full -mb-1 justify-between items-center flex">
           <h4 className="uppercase font-medium text-dark text-sm">Members</h4>

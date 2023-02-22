@@ -64,7 +64,7 @@ const ProjectViewDetails = ({
         <h4 className="uppercase text-[#595F69] text-sm font-medium">
           Details
         </h4>
-        <div className="w-full xl:flex-row flex-col flex justify-between items-start gap-5 xl:gap-0 xl:items-center max-w-[600px] ">
+        <div className="w-full 2xl:flex-row flex-col flex justify-between items-start gap-5 2xl:gap-0 2xl:items-center max-w-[600px] ">
           <div className="flex justify-start items-center gap-3">
             <div className="bg-[rgba(73,201,109,0.1)] w-[40px] aspect-square rounded-[14px] grid place-items-center">
               <p className="text-[#49C96D] text-xl">$</p>

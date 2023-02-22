@@ -12,45 +12,40 @@ const ProjectView = () => {
       platform: "GitLab inc.",
       time: "1 week left",
       active: true,
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
     },
     {
       img: "/comp.png",
       name: "Website Redesign",
       platform: "GitLab inc.",
       time: "1 week left",
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
     },
     {
       img: "/comp.png",
       name: "Website Redesign",
       platform: "GitLab inc.",
       time: "1 week left",
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
     },
     {
       img: "/comp.png",
       name: "Website Redesign",
       platform: "GitLab inc.",
       time: "1 week left",
-    },
-
-    {
-      img: "/comp.png",
-      name: "Website Redesign",
-      platform: "GitLab inc.",
-      time: "1 week left",
-    },
-
-    {
-      img: "/comp.png",
-      name: "Website Redesign",
-      platform: "GitLab inc.",
-      time: "1 week left",
-    },
-
-    {
-      img: "/comp.png",
-      name: "Website Redesign",
-      platform: "GitLab inc.",
-      time: "1 week left",
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
     },
 
     {
@@ -58,14 +53,51 @@ const ProjectView = () => {
       name: "Website Redesign",
       platform: "GitLab inc.",
       time: "1 week left",
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
+    },
+
+    {
+      img: "/comp.png",
+      name: "Website Redesign",
+      platform: "GitLab inc.",
+      time: "1 week left",
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
+    },
+
+    {
+      img: "/comp.png",
+      name: "Website Redesign",
+      platform: "GitLab inc.",
+      time: "1 week left",
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
+    },
+
+    {
+      img: "/comp.png",
+      name: "Website Redesign",
+      platform: "GitLab inc.",
+      time: "1 week left",
+      progress1: "25",
+      progress2: "30",
+      progress3: "45",
+      overall: "75",
     },
   ];
   const [rightPanel, setRightPanel] = useState(false);
 
   return (
     <OverviewLayout>
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr__300px] grid-rows-[auto__1fr] 2xl:grid-cols-[380px__1fr__300px] w-full">
-        <div className="row-span-1 col-span-2 2xl:row-auto 2xl:col-auto 2xl:flex-col w-full flex-row flex h-full justify-start items-start 2xl:border-r border-solid border-[#E8E9EB] hide-scrollbar overflow-x-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr__300px] grid-rows-[auto__1fr] xl:grid-cols-[250px__1fr__300px] 2xl:grid-cols-[380px__1fr__300px] w-full">
+        <div className="row-span-1  xl:max-h-screen xl:overflow-y-auto xl:sticky top-0 col-span-2 xl:row-auto xl:col-auto xl:flex-col w-full flex-row flex h-full justify-start items-start xl:border-r border-solid border-[#E8E9EB] hide-scrollbar overflow-x-auto">
           {DUMMY__DATA.map((elem, idx) => {
             return <ProjectViewSideBox {...elem} key={idx + "sideview"} />;
           })}
@@ -84,9 +116,9 @@ const ProjectView = () => {
           <div onClick={() => setRightPanel(false)} className="overlay"></div>
         )}
         <div
-          className={`lg:static fixed lg:z-0 z-[50] bg-white lg:max-w-none max-w-[300px] ${
+          className={`lg:sticky hide-scrollbar fixed lg:z-0 z-[50] bg-white lg:max-w-none max-w-[300px] ${
             rightPanel ? "right-0" : "-right-[700px]"
-          } transition-all duration-700 top-0 w-full h-full lg:max-h-none lg:overflow-visible overflow-y-auto max-h-screen`}
+          } transition-all duration-700 top-0 w-full h-full   overflow-y-auto max-h-screen`}
         >
           <svg
             onClick={() => setRightPanel(false)}
