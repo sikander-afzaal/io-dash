@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./layout/Sidebar";
 import TopBar from "./layout/TopBar";
+import Contact from "./pages/Contact/Contact";
 import Overview from "./pages/Overview/Overview";
 import ProjectView from "./pages/ProjectView/ProjectView";
 
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route element={<Overview />} path="/" />
         <Route element={<ProjectView />} path="/view" />
+        <Route element={<Contact />} path="/contact" />
       </Routes>
     </div>
   );
