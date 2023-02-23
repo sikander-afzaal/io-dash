@@ -1,7 +1,7 @@
 import OverviewLayout from "../../layout/OverviewLayout";
 import ProjectViewSideBox from "../../components/ProjectViewSideBox";
 import ProjectViewDetails from "../../components/ProjectViewDetails";
-import ProjectViewRightPanel from "../../components/ProjectViewRightPanel";
+import ProjectViewRightPanel from "./ProjectViewRightPanel";
 import { useState } from "react";
 
 const ProjectView = () => {
