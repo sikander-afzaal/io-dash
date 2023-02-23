@@ -222,7 +222,7 @@ const HeadTab = ({ name, ico, active, setActive }) => {
   return (
     <button
       onClick={() => setActive(name)}
-      className={`flex text-lg capitalize border-none bg-transparent justify-center cursor-pointer items-center gap-2 ${
+      className={`flex text-xs  sm:text-[15px] capitalize border-none bg-transparent justify-center cursor-pointer items-center gap-2 ${
         active === name ? "text-[#0F6FDC] font-semibold " : "text-[#A0A0A0]"
       } `}
     >
