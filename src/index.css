@@ -20,7 +20,6 @@
 .area {
   grid-template-areas:
     "side top"
-    "side main"
     "side main";
 }
 .hide-scrollbar {
@@ -29,6 +28,13 @@
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
+}
+.text-overflow {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 @media screen and (max-width: 640px) {
   .area {

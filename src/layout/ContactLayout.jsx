@@ -3,8 +3,8 @@ import { useState } from "react";
 const ContactLayout = ({ children }) => {
   const [activeTab, setActiveTab] = useState("overview");
   return (
-    <div className="w-full max-w-full flex flex-col overflow-x-hidden">
-      <div className="sticky h-max top-0 bg-white py-8 flex justify-start items-start flex-col w-full">
+    <div className="w-full gap-y-5   max-w-full grid grid-rows-[120px__1fr] grid-cols-1">
+      <div className="sticky h-max top-0 bg-white pt-8 flex justify-start items-start flex-col w-full">
         <div className="hide-scrollbar w-full border-b border-solid overflow-x-auto max-w-full border-[#E8ECEF]">
           <div className="flex  min-w-max  max-w-full  pb-2 px-2 justify-start items-center gap-8  ">
             <HeadTab

@@ -7,7 +7,7 @@ import ProjectView from "./pages/ProjectView/ProjectView";
 
 const App = () => {
   return (
-    <div className="grid grid-cols-[1fr] sm:grid-cols-[80px__1fr] grid-rows-[70px__1fr__1fr] area min-h-screen w-full">
+    <div className="grid grid-cols-[1fr] sm:grid-cols-[80px__1fr] grid-rows-[70px__1fr] area min-h-screen w-full">
       <Sidebar />
       <TopBar />
       <Routes>

@@ -23,6 +23,9 @@ module.exports = {
       screens: {
         md2: "877px",
       },
+      boxShadow: {
+        shadow1: "0px 1px 10px rgba(0, 0, 0, 0.07)",
+      },
     },
   },
   plugins: [],
