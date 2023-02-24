@@ -6,7 +6,7 @@ const Activity = () => {
 
   return (
     <div className="w-full h-max  bg-white shadow-shadow1 rounded flex justify-start items-start flex-col py-5">
-      <h4 className="text-[#5F636F] px-5 text-sm font-bold">Activities</h4>
+      <h4 className="text-shuttleGray px-5 text-sm font-bold">Activities</h4>
       {/* //top part ---------------- */}
       <div className="flex w-full px-5 mt-4 justify-start items-start flex-col gap-2">
         <div className="w-full flex justify-start items-center gap-6">

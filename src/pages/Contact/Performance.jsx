@@ -2,7 +2,7 @@ const Performance = () => {
   return (
     <div className="w-full gap-5 flex justify-start items-start flex-col">
       <div className="bg-white gap-5 shadow-shadow1 rounded flex justify-start items-start flex-col p-5 w-full">
-        <h4 className="text-[#5F636F] text-sm font-bold">
+        <h4 className="text-shuttleGray text-sm font-bold">
           Brand Advocacy Scores
         </h4>
         <img
@@ -12,7 +12,7 @@ const Performance = () => {
         />
       </div>
       <div className="bg-white gap-5 shadow-shadow1  rounded flex justify-start items-start flex-col p-5 w-full">
-        <h4 className="text-[#5F636F] text-sm font-bold">
+        <h4 className="text-shuttleGray text-sm font-bold">
           Procedures Performed
         </h4>
         <img

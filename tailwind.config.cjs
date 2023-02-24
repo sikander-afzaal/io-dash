@@ -22,6 +22,7 @@ module.exports = {
         dawn: "#A0A0A0",
         midGray: "#595F69",
         regentGray: "#8A9099",
+        shuttleGray: "#5F636F",
       },
       dropShadow: {
         box: "-4px 8px 24px rgba(44, 63, 88, 0.02)",

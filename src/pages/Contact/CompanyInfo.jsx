@@ -5,7 +5,7 @@ const CompanyInfo = () => {
     <div className="w-full gap-5 flex justify-start items-start flex-col ">
       {/* //company info ------------------------ */}
       <div className="bg-white gap-5 shadow-shadow1 rounded flex justify-start items-start flex-col p-5 w-full">
-        <h4 className="text-[#5F636F] text-sm font-bold">Company Info</h4>
+        <h4 className="text-shuttleGray text-sm font-bold">Company Info</h4>
         <div className="flex justify-start items-center gap-3">
           <img
             src="/comp-info.png"
@@ -13,7 +13,7 @@ const CompanyInfo = () => {
             alt=""
           />
           <div className="flex  justify-start items-start flex-col gap-3">
-            <h4 className="text-[#5F636F] text-sm font-bold">Peanut</h4>
+            <h4 className="text-shuttleGray text-sm font-bold">Peanut</h4>
 
             <p className="text-xs text-[#A1A4A8] ">
               {`Peanut is a social networking app to meet, chat and social
@@ -188,7 +188,7 @@ const CompanyInfo = () => {
       </div>
       {/* //projects ----------------------------------------- */}
       <div className="bg-white gap-3 shadow-shadow1 rounded flex justify-start items-start flex-col p-5 w-full">
-        <h4 className="text-[#5F636F] text-sm font-bold flex justify-start gap-2 items-center">
+        <h4 className="text-shuttleGray text-sm font-bold flex justify-start gap-2 items-center">
           Projects{" "}
           <span className="bg-[#D3EBE9] rounded-full text-[#1E8B82] text-[7px] font-semibold  w-[18px] aspect-square grid place-items-center leading-[1]">
             47
@@ -215,7 +215,7 @@ const CompanyInfo = () => {
       </div>
       {/* //Events ---------------------------------------------------_ */}
       <div className="bg-white gap-3 shadow-shadow1 rounded flex justify-start items-start flex-col p-5 w-full">
-        <h4 className="text-[#5F636F] text-sm font-bold flex justify-start gap-2 items-center">
+        <h4 className="text-shuttleGray text-sm font-bold flex justify-start gap-2 items-center">
           Events{" "}
           <span className="bg-[#D3EBE9] rounded-full text-[#1E8B82] text-[7px] font-semibold  w-[18px] aspect-square grid place-items-center leading-[1]">
             47
@@ -251,7 +251,7 @@ const SearchItem = ({ img, name, desc }) => {
     <div className="flex justify-start items-center gap-4 w-full border-b border-solid border-[#E3E3E4] py-4">
       <span className="inline-block rounded-full aspect-square w-[32px] bg-borderGray"></span>
       <div className="flex justify-start items-start flex-col gap-1">
-        <p className="text-[#5F636F] text-xs font-medium">{name}</p>
+        <p className="text-shuttleGray text-xs font-medium">{name}</p>
         <p className="text-[#A1A4A8] text-[10px]">{desc}</p>
       </div>
     </div>

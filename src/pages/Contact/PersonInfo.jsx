@@ -254,7 +254,7 @@ const PersonInfo = () => {
         </div>
       </div>
       <div className="flex w-full justify-start items-start flex-col gap-2 mt-5">
-        <h4 className="text-[#5F636F] text-sm font-semibold ">Reach</h4>
+        <h4 className="text-shuttleGray text-sm font-semibold ">Reach</h4>
         <div className="w-full grid gap-x-4 grid-cols-[2fr__1fr]">
           <p className="flex justify-between items-center text-[#A1A4A8] text-sm">
             Linkedin <span className="#646464 font-bold">:</span>
