@@ -50,12 +50,12 @@ const TopBar = () => {
             />
           </svg>
         </div>
-        <p className="text-base text-[#A0A0A0]">
+        <p className="text-base text-dawn">
           Sales Director at{" "}
-          <span className="text-[#0F6FDC] font-bold"> Peanut</span>
+          <span className="text-cyanBlue font-bold"> Peanut</span>
         </p>
         <div className="hidden sm:flex justify-start items-center gap-3">
-          <button className="grid bg-transparent place-items-center border border-solid border-[#E8ECEF] rounded px-2 h-[35px]">
+          <button className="grid bg-transparent place-items-center border border-solid border-borderGray rounded px-2 h-[35px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -69,10 +69,10 @@ const TopBar = () => {
               />
             </svg>
           </button>
-          <button className="grid bg-transparent place-items-center border border-solid border-[#E8ECEF] rounded px-2 h-[35px]">
-            <p className="font-semibold text-sm text-[#A0A0A0]">Edit</p>
+          <button className="grid bg-transparent place-items-center border border-solid border-borderGray rounded px-2 h-[35px]">
+            <p className="font-semibold text-sm text-dawn">Edit</p>
           </button>
-          <button className="grid bg-transparent place-items-center border border-solid border-[#E8ECEF] rounded px-2 h-[35px]">
+          <button className="grid bg-transparent place-items-center border border-solid border-borderGray rounded px-2 h-[35px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const TopBar = () => {
               />
             </svg>
           </button>
-          <button className="grid grid-cols-2 bg-transparent place-items-center border border-solid border-[#E8ECEF] rounded px-2 h-[35px]">
+          <button className="grid grid-cols-2 bg-transparent place-items-center border border-solid border-borderGray rounded px-2 h-[35px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -102,9 +102,9 @@ const TopBar = () => {
               />
             </svg>
 
-            <p className="font-normal text-xs text-[#A0A0A0]">Email</p>
+            <p className="font-normal text-xs text-dawn">Email</p>
           </button>
-          <button className="flex justify-center items-center gap-2 bg-[#0F6FDC] place-items-center border-none rounded px-3 h-[35px]">
+          <button className="flex justify-center items-center gap-2 bg-cyanBlue place-items-center border-none rounded px-3 h-[35px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

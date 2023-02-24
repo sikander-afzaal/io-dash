@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="side hidden sm:block w-full sticky top-0 h-full max-h-screen">
-      <div className=" w-full border-r-2 border-solid border-[#E8ECEF] h-full  flex justify-start flex-col py-5 overflow-y-auto items-center">
+      <div className=" w-full border-r-2 border-solid border-borderGray h-full  flex justify-start flex-col py-5 overflow-y-auto items-center">
         <Link to={"/"}>
           <img src="/logo.png" className="w-5 object-contain" alt="" />
         </Link>

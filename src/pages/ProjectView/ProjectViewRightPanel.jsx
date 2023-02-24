@@ -232,7 +232,7 @@ const MemberRow = ({ img, name, role }) => {
       <img src={img} className="rounded-full w-[40px] aspect-square" alt="" />
       <div className="flex justify-start items-start flex-col gap-1">
         <p className="leading-[1] text-dark text-sm">{name}</p>
-        {role && <p className="leading-[1] text-[#8A9099] text-xs">{role}</p>}
+        {role && <p className="leading-[1] text-regentGray text-xs">{role}</p>}
       </div>
     </div>
   );
@@ -244,7 +244,9 @@ const FileRow = ({ img, name, size }) => {
         <img src={img} className=" w-[31px] h-[40px]" alt="" />
         <div className="flex justify-start items-start flex-col gap-1">
           <p className="leading-[1] text-dark text-sm">{name}</p>
-          {size && <p className="leading-[1] text-[#8A9099] text-xs">{size}</p>}
+          {size && (
+            <p className="leading-[1] text-regentGray text-xs">{size}</p>
+          )}
         </div>
       </div>
       <svg

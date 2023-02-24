@@ -38,7 +38,7 @@ const FilterTab = ({ name, tags }) => {
   return (
     <div
       ref={mainRef}
-      className={`w-full border-b border-solid border-[#E8ECEF] overflow-hidden px-3 flex justify-start items-start flex-col transition-all duration-300`}
+      className={`w-full border-b border-solid border-borderGray overflow-hidden px-3 flex justify-start items-start flex-col transition-all duration-300`}
     >
       <button
         ref={refBtn}

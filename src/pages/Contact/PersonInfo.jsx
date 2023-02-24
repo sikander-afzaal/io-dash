@@ -181,7 +181,7 @@ const PersonInfo = () => {
             <a
               href="#"
               target={"blank"}
-              className="w-[34px] text-[#A0A0A0] grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
+              className="w-[34px] text-dawn grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
             >
               <svg
                 className="w-5 h-5"
@@ -207,7 +207,7 @@ const PersonInfo = () => {
             <a
               href="#"
               target={"blank"}
-              className="w-[34px] text-[#A0A0A0] grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
+              className="w-[34px] text-dawn grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +225,7 @@ const PersonInfo = () => {
             <a
               href="#"
               target={"blank"}
-              className="w-[34px] text-[#A0A0A0] grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
+              className="w-[34px] text-dawn grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
             >
               <svg
                 className="w-5 h-5"

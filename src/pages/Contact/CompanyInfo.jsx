@@ -18,7 +18,7 @@ const CompanyInfo = () => {
             <p className="text-xs text-[#A1A4A8] ">
               {`Peanut is a social networking app to meet, chat and social
           networking app to meet, chat and`.slice(0, 51) + "..."}
-              <a href="#" className="text-[#0F6FDC] ml-1">
+              <a href="#" className="text-cyanBlue ml-1">
                 Readmore
               </a>
             </p>
@@ -26,7 +26,7 @@ const CompanyInfo = () => {
               <a
                 href="#"
                 target={"blank"}
-                className="w-[34px] text-[#A0A0A0] grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
+                className="w-[34px] text-dawn grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
               >
                 <svg
                   className="w-5 h-5"
@@ -45,7 +45,7 @@ const CompanyInfo = () => {
               <a
                 href="#"
                 target={"blank"}
-                className="w-[34px] text-[#A0A0A0] grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
+                className="w-[34px] text-dawn grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
               >
                 <svg
                   className="w-5 h-5"
@@ -62,7 +62,7 @@ const CompanyInfo = () => {
               <a
                 href="#"
                 target={"blank"}
-                className="w-[34px] text-[#A0A0A0] grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
+                className="w-[34px] text-dawn grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
               >
                 <svg
                   className="w-5 h-5"
@@ -81,7 +81,7 @@ const CompanyInfo = () => {
               <a
                 href="#"
                 target={"blank"}
-                className="w-[34px] text-[#A0A0A0] grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
+                className="w-[34px] text-dawn grid place-items-center cursor-pointer hover:bg-[#E5E9EE] transition-all aspect-square border border-solid border-[#E5E9EE] rounded-lg"
               >
                 <svg
                   className="w-5 h-5"
@@ -249,7 +249,7 @@ export default CompanyInfo;
 const SearchItem = ({ img, name, desc }) => {
   return (
     <div className="flex justify-start items-center gap-4 w-full border-b border-solid border-[#E3E3E4] py-4">
-      <span className="inline-block rounded-full aspect-square w-[32px] bg-[#E8ECEF]"></span>
+      <span className="inline-block rounded-full aspect-square w-[32px] bg-borderGray"></span>
       <div className="flex justify-start items-start flex-col gap-1">
         <p className="text-[#5F636F] text-xs font-medium">{name}</p>
         <p className="text-[#A1A4A8] text-[10px]">{desc}</p>

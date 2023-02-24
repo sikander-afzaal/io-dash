@@ -20,12 +20,12 @@ const ProjectViewSideBox = ({
       </div>
       <div className="flex justify-start items-start flex-col gap-2 w-full">
         <h4 className="text-dark leading-[1] text-base font-medium">{name}</h4>
-        <p className="text-[#595F69] leading-[1] text-sm ">{platform}</p>
+        <p className="text-midGray leading-[1] text-sm ">{platform}</p>
         {/* //progress div -------------------- */}
         <div className="w-full flex justify-start items-center flex-col gap-1">
           <div className="flex justify-between items-center w-full">
-            <p className="text-[#595F69] text-sm">Progress</p>
-            <p className="text-[#8A9099] text-sm">{overall}%</p>
+            <p className="text-midGray text-sm">Progress</p>
+            <p className="text-regentGray text-sm">{overall}%</p>
           </div>
           <div className="flex justify-start items-center gap-1 w-full">
             <div
@@ -43,14 +43,14 @@ const ProjectViewSideBox = ({
           </div>
           <div className="flex justify-start flex-row xl:flex-col items-start w-full gap-3 mt-3">
             <div className="flex justify-start items-start flex-col gap-2">
-              <p className="text-[#8A9099] text-xs leading-[1]">Signed</p>
+              <p className="text-regentGray text-xs leading-[1]">Signed</p>
               <p className="text-dark  leading-[1] font-medium">
                 <span className="inline-block w-[10px] aspect-square bg-[#47A8F7] rounded"></span>{" "}
                 12
               </p>
             </div>
             <div className="flex justify-start items-start flex-col gap-2">
-              <p className="text-[#8A9099] text-xs leading-[1]">
+              <p className="text-regentGray text-xs leading-[1]">
                 Waiting signature
               </p>
               <p className="text-dark leading-[1] font-medium">
@@ -59,7 +59,7 @@ const ProjectViewSideBox = ({
               </p>
             </div>
             <div className="flex justify-start items-start flex-col gap-2">
-              <p className="text-[#8A9099] text-xs leading-[1]">
+              <p className="text-regentGray text-xs leading-[1]">
                 Manager review
               </p>
               <p className="text-dark leading-[1] font-medium">

@@ -36,8 +36,8 @@ const Overview = ({ children }) => {
           />
         </div>
         {/* //filter buttons ----------------------------- */}
-        <div className="w-full grid grid-cols-1 md2:grid-cols-[300px__1fr]   border-b border-solid border-[#E8ECEF]">
-          <div className="gap-1  border-r border-solid border-[#E8ECEF] px-3 py-4  text-dark  flex justify-start items-center w-full">
+        <div className="w-full grid grid-cols-1 md2:grid-cols-[300px__1fr]   border-b border-solid border-borderGray">
+          <div className="gap-1  border-r border-solid border-borderGray px-3 py-4  text-dark  flex justify-start items-center w-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -86,12 +86,12 @@ const Tabs = ({ name, number, active, setActive }) => {
       )}
       <p
         className={`${
-          active === name ? "text-[#3F434A]" : "text-[#8A9099]"
+          active === name ? "text-[#3F434A]" : "text-regentGray"
         }  leading-[1] text-xs  sm:text-[15px] font-normal select-none`}
       >
         {name}
       </p>
-      <p className="bg-[#E8E9EB] rounded-[6px] px-2 py-1 text-[8px] sm:text-[10px] font-semibold text-[#8A9099]">
+      <p className="bg-[#E8E9EB] rounded-[6px] px-2 py-1 text-[8px] sm:text-[10px] font-semibold text-regentGray">
         {number}
       </p>
     </button>

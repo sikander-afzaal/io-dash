@@ -16,11 +16,18 @@ module.exports = {
       colors: {
         gray: "#778CA2",
         dark: "#3F434A",
+        borderGray: "#E8ECEF",
+        cyanBlue: "#0F6FDC",
+        electricBlue: "#1990EA",
+        dawn: "#A0A0A0",
+        midGray: "#595F69",
+        regentGray: "#8A9099",
       },
       dropShadow: {
         box: "-4px 8px 24px rgba(44, 63, 88, 0.02)",
         dropDown: "0px 20px 50px rgba(44, 63, 88, 0.15)",
       },
+
       screens: {
         md2: "877px",
       },

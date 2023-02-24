@@ -87,7 +87,7 @@ const Activity = () => {
                 className="w-full border text-xs border-[#E3E3E4] border-solid h-[120px] resize-none pl-3 pt-3 rounded-sm"
               ></textarea>
               <div className="flex justify-start items-center gap-3">
-                <button className="w-[140px] h-[40px] text-white text font-semibold bg-[#1990EA] rounded border-none">
+                <button className="w-[140px] h-[40px] text-white text font-semibold bg-electricBlue rounded border-none">
                   Log Note
                 </button>
                 <div className="flex justify-start items-center gap-2">
@@ -136,7 +136,7 @@ const Activity = () => {
                   <ActivityComponent />
                   <ActivityComponent />
                   <ActivityComponent />
-                  <button className="text-[#1990EA] border-none bg-transparent font-semibold text-base flex justify-center items-center w-full pt-5">
+                  <button className="text-electricBlue border-none bg-transparent font-semibold text-base flex justify-center items-center w-full pt-5">
                     Show in Window View
                   </button>
                 </div>
@@ -155,7 +155,7 @@ const Activity = () => {
                 placeholder="Type a note..."
                 className="w-full border text-xs border-[#E3E3E4] border-solid h-[120px] resize-none pl-3 pt-3 rounded-sm"
               ></textarea>
-              <button className="w-[140px] h-[40px] text-white text font-semibold bg-[#1990EA] rounded border-none">
+              <button className="w-[140px] h-[40px] text-white text font-semibold bg-electricBlue rounded border-none">
                 Log Note
               </button>
             </div>
@@ -252,7 +252,7 @@ const MailComponent = () => {
         <p className="text-xs text-[#A1A4A8]">
           Apollo’s automatic email fulfillment found a{" "}
           <span className="text-[#646464] font-semibold">verified email</span>{" "}
-          <a href="mailto:julie.hafemann@tsia.com" className="text-[#0F6FDC]">
+          <a href="mailto:julie.hafemann@tsia.com" className="text-cyanBlue">
             julie.hafemann@tsia.com
           </a>
         </p>
@@ -266,10 +266,10 @@ const ActivityComponent = () => {
   return (
     <div className="flex py-5 border-b border-solid border-[#E3E3E4] w-full justify-start items-start flex-col gap-3">
       <p className="text-[#4B4A50] text-sm">
-        Account for <span className="text-[#1990EA]">Tim Zheng</span> was
-        changed from <span className="text-[#1990EA]">Apollo</span> to{" "}
-        <span className="text-[#1990EA]">Apollo</span> based on its salesforce
-        record.
+        Account for <span className="text-electricBlue">Tim Zheng</span> was
+        changed from <span className="text-electricBlue">Apollo</span> to{" "}
+        <span className="text-electricBlue">Apollo</span> based on its
+        salesforce record.
       </p>
       <div className="flex justify-between w-full items-center gap-1">
         <div className="flex justify-start items-center gap-1">

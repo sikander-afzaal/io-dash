@@ -5,7 +5,7 @@ const ContactLayout = ({ children }) => {
   return (
     <div className="w-full gap-y-5   max-w-full grid grid-rows-[120px__1fr] grid-cols-1">
       <div className="sticky h-max top-0 bg-white pt-8 flex justify-start items-start flex-col w-full">
-        <div className="hide-scrollbar w-full border-b border-solid overflow-x-auto max-w-full border-[#E8ECEF]">
+        <div className="hide-scrollbar w-full border-b border-solid overflow-x-auto max-w-full border-borderGray">
           <div className="flex  min-w-max  max-w-full  pb-2 px-2 justify-start items-center gap-8  ">
             <HeadTab
               active={activeTab}
@@ -153,11 +153,11 @@ const ContactLayout = ({ children }) => {
           </div>
         </div>
 
-        <div className="flex justify-between gap-4 items-center w-full border-b border-solid border-[#E8ECEF] hide-scrollbar  px-2">
+        <div className="flex justify-between gap-4 items-center w-full border-b border-solid border-borderGray hide-scrollbar  px-2">
           <input
             type="text"
             placeholder="Search for task and etc"
-            className="w-full max-w-[400px] border-r border-[#e8ecef] border-solid outline-none bg-transparent h-[50px] text-[#778CA2] text-base"
+            className="w-full max-w-[400px] border-r border-borderGray border-solid outline-none bg-transparent h-[50px] text-[#778CA2] text-base"
           />
           <div className="flex justify-center items-center gap-2">
             <button className="w-[38px] grid place-items-center cursor-pointer hover:bg-[rgba(226,226,234,0.7)] transition-all aspect-square border border-solid border-[rgba(226,226,234,0.7)] rounded-lg">
@@ -223,7 +223,7 @@ const HeadTab = ({ name, ico, active, setActive }) => {
     <button
       onClick={() => setActive(name)}
       className={`flex text-xs  sm:text-[15px] capitalize border-none bg-transparent justify-center cursor-pointer items-center gap-2 ${
-        active === name ? "text-[#0F6FDC] font-semibold " : "text-[#A0A0A0]"
+        active === name ? "text-cyanBlue font-semibold " : "text-dawn"
       } `}
     >
       {ico && ico}

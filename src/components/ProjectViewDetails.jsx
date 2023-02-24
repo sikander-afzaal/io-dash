@@ -24,7 +24,7 @@ const ProjectViewDetails = ({
             <h4 className="text-dark leading-[1] text-base xl:text-xl font-medium">
               {name}
             </h4>
-            <p className="text-[#595F69] leading-[1] text-sm ">{company}</p>
+            <p className="text-midGray leading-[1] text-sm ">{company}</p>
           </div>
         </div>
         <div className="flex items-center gap-4">
@@ -61,16 +61,14 @@ const ProjectViewDetails = ({
       </div>
       {/* //details ---------------------------- */}
       <div className="flex justify-start items-start flex-col gap-3 mt-3 w-full">
-        <h4 className="uppercase text-[#595F69] text-sm font-medium">
-          Details
-        </h4>
+        <h4 className="uppercase text-midGray text-sm font-medium">Details</h4>
         <div className="w-full 2xl:flex-row flex-col flex justify-between items-start gap-5 2xl:gap-0 2xl:items-center max-w-[600px] ">
           <div className="flex justify-start items-center gap-3">
             <div className="bg-[rgba(73,201,109,0.1)] w-[40px] aspect-square rounded-[14px] grid place-items-center">
               <p className="text-[#49C96D] text-xl">$</p>
             </div>
             <div className="flex justify-start items-start flex-col gap-1">
-              <p className="text-[#8A9099] text-sm leading-[1]">Budget</p>
+              <p className="text-regentGray text-sm leading-[1]">Budget</p>
               <p className="text-dark text-sm leading-[1]">{budget}</p>
             </div>
           </div>
@@ -92,7 +90,7 @@ const ProjectViewDetails = ({
               </svg>
             </div>
             <div className="flex justify-start items-start flex-col gap-1">
-              <p className="text-[#8A9099] text-sm leading-[1]">Start Date</p>
+              <p className="text-regentGray text-sm leading-[1]">Start Date</p>
               <p className="text-dark text-sm leading-[1]">{start}</p>
             </div>
           </div>
@@ -114,7 +112,7 @@ const ProjectViewDetails = ({
               </svg>
             </div>
             <div className="flex justify-start items-start flex-col gap-1">
-              <p className="text-[#8A9099] text-sm leading-[1]">End Date</p>
+              <p className="text-regentGray text-sm leading-[1]">End Date</p>
               <p className="text-dark text-sm leading-[1]">{end}</p>
             </div>
           </div>
@@ -122,10 +120,10 @@ const ProjectViewDetails = ({
       </div>
       {/* //description -------------------------------- */}
       <div className="flex justify-start items-start flex-col gap-2 mt-3">
-        <h4 className="uppercase text-[#595F69] text-sm font-medium leading-[1]">
+        <h4 className="uppercase text-midGray text-sm font-medium leading-[1]">
           Description
         </h4>
-        <p className="text-sm text-[#595F69]">{desc}</p>
+        <p className="text-sm text-midGray">{desc}</p>
       </div>
     </div>
   );

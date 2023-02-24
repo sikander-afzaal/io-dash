@@ -33,7 +33,7 @@ export const PersonDetails = ({ ico, heading, details, verified, color }) => {
         )}
         <p
           className={`text-[12px] ${
-            verified || color ? "text-[#1990EA]" : "text-[#74777D]"
+            verified || color ? "text-electricBlue" : "text-[#74777D]"
           } leading-[1] font-medium`}
         >
           {details}
